@@ -1,0 +1,18 @@
+deps:
+  - riiid/interface-ai-service-server@v0.0.1
+  - riiid/interface-auth-server@v0.2.2
+  - riiid/interface-content-server@v0.0.8
+  - riiid/interface-coupon-server@v1.1.0
+  - riiid/interface-payment-server@v1.5.1
+  - riiid/interface-push-noti-server@0.0.1
+  - riiid/interface-riiid-toeic@main
+  - riiid/interface-silos-server@main
+root:
+  lock:
+    riiid/interface-ai-model@main: 3b74c1dc4607076834e0b91308f47c04b8b98492
+    riiid/interface-common-model@main: b45881b59ba8da0acc0639ef628ae8241a61b101
+    riiid/interface-content-learning-model@main: 93343ce8cfd03506654c82c7647c8d67add87b94
+    riiid/interface-content-model@main: 0ebb7e73f2e65f50dce369788a88b9a5845b1e04
+    riiid/interface-inside-model@main: 190ec91e9f3968b29c2f43d5cf211e49912dd22e
+    riiid/interface-riiid-toeic@main: a0a810ffcb95846218a9e9644308a87228c317c0
+    riiid/interface-silos-server@main: b943b9d0ac54089894dc8ab246655d751ac91ab8
