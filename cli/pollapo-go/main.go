@@ -16,14 +16,9 @@ limitations under the License.
 package main
 
 import (
-  "fmt"
   "github.com/riiid/pbkit/cli/pollapo-go/cmd"
 )
 
 func main() {
-  x := map[string]string{}
-
-  fmt.Println("==="+ x["aaa"]+ "===")
-
 	cmd.Execute()
 }
