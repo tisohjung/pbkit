@@ -6,8 +6,8 @@ import {
   writeGhHosts,
 } from "../../../../misc/github/auth.ts";
 import { print, println } from "../../misc/stdio.ts";
-import { open } from "../../misc/browser.ts";
-import { bold, yellow } from "https://deno.land/std@0.122.0/fmt/colors.ts";
+import { open } from "../../../../misc/browser.ts";
+import { bold, yellow } from "https://deno.land/std@0.147.0/fmt/colors.ts";
 import {
   getToken,
   GithubNotLoggedInError,
